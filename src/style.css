@@ -1,0 +1,130 @@
+/* font-family: 'Bungee', cursive;
+font-family: 'Yellowtail', cursive; */
+:root {
+  --primary-color: #1ee0b6;
+}
+/* hero */
+.hero {
+  background-color: #0f0f0f;
+  max-height: 836px;
+}
+
+.hero-img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+.hero-text {
+  position: relative;
+  top: -30vw;
+  left: auto;
+  right: auto;
+  font-size: 10vw;
+  font-family: "Bungee";
+  color: #fff;
+  text-align: center;
+  text-shadow: 10px 5px 0px #000000;
+}
+
+.hero-text-year {
+  color: var(--primary-color);
+}
+
+.hero-subtext {
+  color: var(--primary-color);
+  font-family: "yellowtail";
+  position: relative;
+  top: -34vw;
+  left: 70vw;
+  right: auto;
+  font-size: 5vw;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* dates banner */
+.festival-dates-banner {
+  background-color: #ff17a9;
+  text-align: center;
+  padding: 27px 241px 15px;
+}
+
+.festival-dates-banner ul {
+  list-style-type: none;
+  margin: none;
+  color: #fff;
+  font-family: "Bungee";
+  text-shadow: 3px 6px 0px #000000;
+  font-size: 50px;
+  line-height: 145%;
+}
+
+/* lineup banner */
+.lineup-background {
+  background-image: url("/src/images/lineup-space-background.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.lineup-heading {
+  font-family: "Bungee";
+  font-size: 96px;
+  color: var(--primary-color);
+  text-shadow: 10px 5px 0px #000000;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.lineup-artists {
+  font-family: "bungee";
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: justify;
+  padding: 16px 274px 120px;
+  margin-bottom: 0;
+}
+
+.pink {
+  color: #ff17a9;
+}
+
+.mint {
+  color: #1ee0b6;
+}
+
+.headliners {
+  background-color: #1ee0b6;
+}
+
+.headliners-heading {
+  font-family: "Bungee";
+  font-size: 96px;
+  color: #fff;
+  text-shadow: 10px 5px 0px #000000;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.headliner-img {
+  margin: 44px;
+}
+
+.container img {
+  max-width: 577px;
+}
+
+@media (min-width: 1512px) {
+  .hero-text {
+    font-size: 150px;
+  }
+
+  .hero-subtext {
+    font-size: 70px;
+  }
+
+  .hero-img {
+    max-width: 655px;
+  }
+}
